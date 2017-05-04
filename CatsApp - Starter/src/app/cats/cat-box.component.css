@@ -1,0 +1,23 @@
+.cat-box {
+    border: 2px solid #cecece;
+    padding: 6px 12px;
+    border-radius: 10px 0;
+    margin-bottom: 1em;
+    width: 200px;
+    margin-left: 30px;
+    transition: .5s all;
+    cursor: pointer;
+}
+
+.cat-box:hover {
+    box-shadow: 8px 8px 5px #888888;
+    background: white;
+}
+
+.delete {
+    float: right;
+    height: 20px;
+    width: 20px;  
+    padding-left: 3px;
+    color: red;    
+}

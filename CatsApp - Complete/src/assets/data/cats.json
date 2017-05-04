@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Snuggles",
+        "imageUrl": "http://cdn1-www.cattime.com/assets/uploads/gallery/persian-cats-and-kittens/persian-cats-and-kittens-1.jpg",
+        "owner": "John Snow"
+    },
+    {
+        "id": 2,
+        "name": "Mr. Bigglesworth"
+    },
+    {
+        "id": 3,
+        "name": "Snowball"
+    },
+    {
+        "id": 4,
+        "name": "Kitty"
+    },
+    {
+        "id": 5,
+        "name": "Whiskers"
+    },
+    {
+        "id": 6,
+        "name": "Mimiron"
+    },
+    {
+        "id": 7,
+        "name": "Svala"
+    }
+]

@@ -1,0 +1,5 @@
+<div class="cat-box" (mouseenter)="onmouseover(cat)" (mouseleave)="onmouseover()">
+    <span [style.color]="myColor">{{cat.id}}</span>&nbsp;
+    <i>{{cat.name}}</i>    
+    <i class="fa fa-times delete" (click)="ondelete(cat.id)"></i>
+</div>

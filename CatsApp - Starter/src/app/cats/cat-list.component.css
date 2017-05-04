@@ -1,0 +1,32 @@
+.cat-list {
+    float:left;    
+    width: 25%;
+    margin-top: 50px;
+}
+
+.cat-frame {    
+    float: left;
+    width: 70%; 
+}
+
+.cat-name {
+    text-align: center;
+    font-style: italic;
+    font-size: 26pt;
+}
+
+.cat-portrait {
+    margin: 50px auto;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.cat-owner {
+    text-align: right;
+    font-weight:bold;
+    font-size: 22pt;
+}

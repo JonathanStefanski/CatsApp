@@ -1,0 +1,13 @@
+<div *ngIf="error">{{error}}</div>
+
+
+<div class="cat-list" *ngIf="!error">    
+    <div *ngFor="let c of cats">
+        <app-cat [cat]="c" (hover)="hover($event)" (delete)="kill($event)"></app-cat>
+    </div>
+</div>
+<div class="cat-frame" *ngIf="cat">
+    <div class="cat-name">{{cat.name}}</div>
+    <div *ngIf="cat.imageUrl" class="cat-portrait" [style.background-image]="'url(' + cat.imageUrl + ')'"></div>
+    <div class="cat-owner">{{cat.owner}}</div>
+</div>
